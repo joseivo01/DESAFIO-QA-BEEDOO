@@ -3,7 +3,10 @@
 ## Descrição do Projeto
 
 Este projeto foi desenvolvido como parte do processo seletivo para o cargo de Analista de Qualidade de Software Júnior. O desafio foi dividido em duas etapas.
-as infomações abaixo descrevem as userstories bem como a motivação de construção de cada uma delas, conforme descrito no link com as informações da etapa do teste:
+as infomações abaixo descrevem a primeira etapa, onde foi desenvolvidas as userstories bem como a motivação de construção de cada uma delas, conforme solicitado e descrito no link do desafio:
+
+**Obs.** _Como adicional eu tomei a liberdade de criar casos de testes automatizados com cypress seguindo o padrao PageObject e o tutorial para executa-lo esta no final deste documento_
+
 ### 1. User Story: Criar Curso
 
 **Título:** Como Administrador, quero criar novos cursos no sistema para disponibilizar conteúdo educacional aos alunos e professores.
@@ -83,9 +86,40 @@ as infomações abaixo descrevem as userstories bem como a motivação de constr
 
 ## Links Importantes
 
-- **Planilha do plano de Teste com as informações de execução:** [Planilha do google Docs Link](https://docs.google.com/spreadsheets/d/1-4aVVDsoIWcUGEztUQKS4h2q4ZRNH1q-b6iCuolKEWk/edit?usp=sharing)
+- **Planilha do plano do relatório dos Tests com as informações de execução:** [Planilha do google Docs Link](https://docs.google.com/spreadsheets/d/1-4aVVDsoIWcUGEztUQKS4h2q4ZRNH1q-b6iCuolKEWk/edit?usp=sharing)
 - **Casos de testes(link de execução enexado a casa asserção):** [Documento do google Drive Link](https://docs.google.com/document/d/16QXPkHT-FwD58_MADrThGxlaxc8Fdkc59gDf-cBCGZY/edit?usp=sharing)
+- **Video execução dos casos de testes(link do video executando os casos de testes (9min)):** [Video no google Drive Link](https://drive.google.com/file/d/1CMt8AKSV3xl7j_uJ4wRBKQ-q9Zs03npR/view?usp=sharing)
+- **Documentos com o bugs e melhoria do sistema(link do documento de bugs e melhorias):** [Documento de bugs e melhoria no google Drive Link](https://docs.google.com/document/d/1cPAa0w9gHX97wyHgMF5MsHn4vHqoT1Bcmih4_LEjqyU/edit?usp=sharing)
 
+# TUTORIAL PARA EXECUTAR OS TESTES AUTOMATIZADOS
+
+# Pré-requisitos
+
+Antes de começar, certifique-se de ter o seguinte instalado em seu ambiente:
+
+- [Node.js](https://nodejs.org/en/download/) (recomendado: versão LTS)
+- [npm](https://www.npmjs.com/get-npm) (normalmente instalado junto com o Node.js)
+
+Execute na linha de comando do terminal na pasta desejada:
+1. git init
+2. git clone [https://github.com/joseivo01/DESAFIO-QA-BEEDOO.git](https://github.com/joseivo01/DESAFIO-QA-BEEDOO.git) 
+3. cd beedoo_automated_tests
+4. npm install
+
+Para rodar os testes em modo headless (sem interface gráfica), execute:
+
+npm run cypress:run
+
+Você também pode rodar os testes em diferentes resoluções de tela:
+
+- Mobile: `npm run cypress:run:mobile`
+- Tablet: `npm run cypress:run:tablet`
+- Desktop: `npm run cypress:run:desktop`
+
+Para rodar todos os testes em todas as resoluções de tela:
+
+npm run cypress:run:all
+  
 ## Conclusão
 
 Este projeto foi desenvolvido com foco na qualidade e na cobertura completa dos cenários de teste. A atenção aos detalhes e a documentação cuidadosa garantem que todas as funcionalidades foram testadas de maneira abrangente e que os resultados são claros e acionáveis.
