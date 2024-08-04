@@ -119,6 +119,17 @@ Você também pode rodar os testes em diferentes resoluções de tela:
 Para rodar todos os testes em todas as resoluções de tela:
 
 npm run cypress:run:all
+
+### Este deve ser o resultado dos testes para Desktop, mobile e tablet:
+obs. _os tempos podem variar de acordo com o computador e/ou a internet_
+
+| Spec                      | Duration | Tests | Passing | Failing | Pending | Skipped |
+|---------------------------|----------|-------|---------|---------|---------|---------|
+| **cadastro.spec.cy.js**    | 00:12    | 3     | 3       | -       | -       | -       |
+| **deletar.spec.cy.js**     | 00:03    | 1     | 1       | -       | -       | -       |
+| **listagem.spec.cy.js**    | 00:03    | 1     | 1       | -       | -       | -       |
+| **All specs passed!**      | 00:20    | 5     | 5       | -       | -       | -       |
+
   
 ## Conclusão
 
