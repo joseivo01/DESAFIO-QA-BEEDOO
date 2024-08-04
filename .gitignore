@@ -1,0 +1,38 @@
+# Ignorar a pasta node_modules
+node_modules/
+
+# Ignorar relatórios de cobertura
+coverage/
+cypress/coverage/
+
+# Ignorar capturas de tela e vídeos gerados durante os testes
+cypress/screenshots/
+cypress/videos/
+
+# Ignorar relatórios de execução de testes
+reports/
+cypress/reports/
+
+# Ignorar arquivos de configuração locais
+cypress.env.json
+.env
+
+# Ignorar logs
+*.log
+
+# Ignorar pacotes bloqueados
+package-lock.json
+
+# Ignorar sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar caches do editor
+.vscode/
+.idea/
+*.swp
+
+# Ignorar arquivos de saída gerados pela build
+dist/
+build/
+out/
