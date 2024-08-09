@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-Este projeto foi desenvolvido como parte do processo seletivo para o cargo de Analista de Qualidade de Software Júnior. O desafio foi dividido em duas etapas.
+Este projeto foi desenvolvido como parte do processo seletivo para o cargo de Analista de Qualidade de Software. O desafio foi dividido em duas etapas.
 as infomações abaixo descrevem a primeira etapa, onde foi desenvolvidas as userstories bem como a motivação de construção de cada uma delas, conforme solicitado e descrito no link do desafio:
 
 **Obs.** _Como adicional eu tomei a liberdade de criar casos de testes automatizados com cypress seguindo o padrao PageObject e o tutorial para executa-lo esta no final deste documento_
